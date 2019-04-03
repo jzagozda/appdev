@@ -1,7 +1,7 @@
 // constants definitions
 #define RATE 16000 //sample rate
-#define DURATION 5 //we're going to record for 5 seconds
-#define RCMD "arecord -r16000 -c1 -f S16_LE -d5 test.wav"
+#define DURATION 1 //we're going to record for 5 seconds
+#define RCMD "arecord -r16000 -c1 -f S16_LE -d1 test.wav"
 // data structures
 struct WAVHDR{
 	char ChunkID[4]; //must be RIFF
