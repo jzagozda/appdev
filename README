@@ -1,1 +1,38 @@
-# This is the first version
+# This is the first version 1.1
+This application enables the users to use Raspberry Pi as a sound device.
+
+Two features are implemented:
+	1. Sound collector
+	2. Test tone generator
+
+List of content:
+	1. Configuration Instruction
+	2. Installation Instruction
+	3. Operating Instruction
+	4. List of files
+	5. Copyright / copyleft
+	6. Contact information
+	7. Credits and Acknowledgments
+
+1. Configuration Instruction
+Once the RPi is ready, navigate to "sudo nano /etc/rc.local" and change email to your email.
+
+2. Installation Instruction
+Copy the repository to your own device. Compile the program by running "make command".
+ - Run the program in the sound collector mode by running "./sound.out"
+ - Run the program in the Test Tone Generator mode by running "./sound.out arg"
+Then, follow the instructions displayed on the console. 
+
+3.
+
+4. List of files:
+-README
+-comm.c
+-curltest.c
+-main.c
+-makefile
+-screen.c
+-screen.h
+-sound.c
+-sound.h
+
