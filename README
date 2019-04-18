@@ -29,12 +29,12 @@ Then, follow the instructions displayed on the consol
 	- README - this file
 	- comm.c - calculation of the samples and communication issues
 	- comm.h - header file with definitions
-	- curltest.c
-	- main.c
-	- makefile
-	- screen.c
-	- screen.h
-	- sound.c
+	- curltest.c - communication issues (concerning students)
+	- main.c - the main "engine" of the project
+	- makefile - compilation automation file
+	- screen.c - functions defining the display methods 
+	- screen.h - header file with screen definitions
+	- sound.c - 
 	- sound.h
 	- sound.php
 
