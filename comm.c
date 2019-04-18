@@ -5,7 +5,7 @@
 #include "sound.h"
 
 //This function will calculate 1 second of sound samples into 8 pieces
-//of slow decibels (ISO Standard), this data is calculated as 124 ms of 
+//of slow decibels (ISO Standard), this data is calculated as 124 ms of
 //sample data; The first part of function is to calculate, the second
 //part is to perform libcurl communication
 

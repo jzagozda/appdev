@@ -1,11 +1,11 @@
 # This is the first version 1.1
 This application enables the users to use Raspberry Pi as a sound device.
 
-Two features are implemented:
-	1. Sound collector
+# Two features are implemented:
+	1. Sound collector (1 second interl)
 	2. Test tone generator
 
-List of content:
+# List of content:
 	1. Configuration Instruction
 	2. Installation Instruction
 	3. Operating Instruction
@@ -14,25 +14,34 @@ List of content:
 	6. Contact information
 	7. Credits and Acknowledgments
 
-1. Configuration Instruction
+# 1. Configuration Instruction
 Once the RPi is ready, navigate to "sudo nano /etc/rc.local" and change email to your email.
 
-2. Installation Instruction
-Copy the repository to your own device. Compile the program by running "make command".
- - Run the program in the sound collector mode by running "./sound.out"
- - Run the program in the Test Tone Generator mode by running "./sound.out arg"
-Then, follow the instructions displayed on the console. 
+# 2. Installation Instruction
+Copy the repository to your own device. Compile the program by running "make" command.
 
-3.
+# 3. Operating Instruction
+	 - Run the program in the sound collector mode by running "./sound.out"
+	 - Run the program in the Test Tone Generator mode by running "./sound.out arg"
+Then, follow the instructions displayed on the consol
 
-4. List of files:
--README
--comm.c
--curltest.c
--main.c
--makefile
--screen.c
--screen.h
--sound.c
--sound.h
+# 4. List of files:
+	- README - this file
+	- comm.c - calculation of the samples and communication issues
+	- comm.h - header file with definitions
+	- curltest.c
+	- main.c
+	- makefile
+	- screen.c
+	- screen.h
+	- sound.c
+	- sound.h
+	- sound.php
 
+# 5. Copyright 
+The usage and modifications of the source code are allowed for non-commercial issues. 
+# 6. Contact Information
+email: zagozda*joannaAgmail*com //replace '*' with '.' and 'A' with '@'
+# 7. Credits 
+All rights reserved to user Ottogao, as the project was developed under his supervision.
+Special thanks to Vaasan Ammattikorkeakoulu for sharing the resources and equipment.

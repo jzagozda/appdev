@@ -139,7 +139,6 @@ void testTone(int channel, int frequencyLeft, int frequencyRight, float duration
 			fwrite(&sR, sizeof(short), 1, f);
 		}
 	}
-//	fwrite(data, duration * h.SampleRate * sizeof(short), 1, f);
 	fclose(f);
 	printf("TestTone is generated\n");
 }
